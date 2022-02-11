@@ -1,0 +1,16 @@
+#ENTER THE NODE NUMBERS AND POSITIONS INN RESPECT TO THE GLOBAL ORIGIN. ALL DIMENSIONS IN METRES. DELIMIT USING TAB.
+#DO NOT INCLUDE ANYTHING ELSE BESIDES THE NUMBERS. 
+# N - point load/reaction whose value is in kN. positive if upwards.
+# M - moment in kNm. positive if anticlockwise
+# Fix - end Fixicity. 1 for rigid connection. 0 for pinned connection, -1 for roller support, 2 for simply supported
+# E - Modulus of elasticity in mPa.
+# I - second oment of area in m^4
+# P - point load or udl toggle. 1 for point load, 2 for udl. For loading, enter value under N. For udl, enter the start cordinates at a and end at b.
+#
+#
+#
+#----------------------------------------VALUES BEGIN HERE-------------------------------#
+#NODE	X	Y	Z	N	Fix	E	I	a	b
+1	0	0	0
+2	2	0	0
+3	1.5	1	0
