@@ -30,6 +30,6 @@ def main():
     output_file.write(output_results)
     output_file.close()
 
-
+#call the main function
 if __name__ == '__main__':
     main()
