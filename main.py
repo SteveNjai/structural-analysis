@@ -158,7 +158,7 @@ def main():
 
         else:
             print(
-                "\n The stiffness matrix is a singular matrix. Could not solve. Modify the force matrix\n")
+                "\n ERROR! The stiffness matrix is a singular matrix. Could not solve. Modify the force matrix\n")
 
             #summarizing the file
         print('\n # |---------------------------------------------------------')
