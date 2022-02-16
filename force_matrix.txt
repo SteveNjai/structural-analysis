@@ -1,0 +1,13 @@
+#
+#-----------------------FORCE MATRIX -------------------------
+# -- USE THIS N X 1 COLUMN MATRIX TO DEFINE ROWS OF ZERO FORCE OR MOMENT
+# THE VALUES HERE WILL BE MULTIPLIED WITH THE COMBINED LOAD MATRIX BEFORE IT IS MULTIPLIED WITH THE STIFFNESS MATRIX.
+# USE 1 TO MARK A ROW WITH A FORCE AND 0 FOR ROWS WITH ZERO FORCE OR MOMENT
+#---------------------------------------------------------------------------------
+#J1
+1
+1
+1
+1
+1
+1

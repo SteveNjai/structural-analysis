@@ -1,0 +1,15 @@
+#
+#-----------------------------------------STIFFNESS MATRIX [K]-------------------------------
+#
+# --Enter the stiffness matrix below. it should be delimited by tab and should be a square matrix.
+# ensure no spaces or unwanted values after the matrix else it will return an error.
+# --For each stiffness Kij, displacements are the columns j and the rows are the forces i.
+# -- Use the python code to modify the equations.
+#------------------------------------------------------------------------------------------------
+#j1	j2	j3	j4	j5	j6
+0.44	0.66	-0.44	0.66	0	0
+0.66	1.33	-0.66	0.66	0	0
+-0.44	-0.66	0.819	0.0833	-0.375	0.75
+0.66	0.66	0.0833	3.333	-0.75	1
+0	0	-0.375	-0.75	0.375	-0.75
+0	0	0.75	1	-0.75	2

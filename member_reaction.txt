@@ -1,0 +1,13 @@
+#
+#-----------------------------MEMBER REACTION MATRIX [Ar]---------------
+#
+# -- Enter each member reaction forces on its own column. the rows will be summed up to generate a single column matrix hence ensure the
+# rows are well arranged.
+#----------------------------------------------------------------------------------------
+#memb.1	member2	member3	...
+53.335	0
+35.56	0
+26.67	100
+-17.78	66.67
+0	100
+0	-66.67

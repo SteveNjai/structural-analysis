@@ -1,3 +1,86 @@
-[[1.  0.  0.  0. ]
- [2.  2.  0.  0. ]
- [3.  1.5 1.  0. ]]
+ # |-------------------------------------------------------------------------------
+        
+ # |          STIFFNESS MATRIX METHOD OF STRUCTURAL ANALYSIS : RESULTS OUTPUT
+        
+ # | Calculated on date and time: 
+        
+ $ |  2022-02-16 | 23:14:18 
+        
+ # | The following program calculates the deflection and the reactions of structural members using the
+        matrix method of structural analysis. Please use the corresponding input text files to input your data 
+        before running this program in your command prompt or Python IDE. The input text files are the: stiffness.txt,
+        joint load.txt, member reaction.txt and force matrix.txt.
+        
+ $ |-------------------------------------------------------------------------------------------------
+        
+
+The following is the input data
+
+stiffness matrix K
+ [[ 0.44    0.66   -0.44    0.66    0.      0.    ]
+ [ 0.66    1.33   -0.66    0.66    0.      0.    ]
+ [-0.44   -0.66    0.819   0.0833 -0.375   0.75  ]
+ [ 0.66    0.66    0.0833  3.333  -0.75    1.    ]
+ [ 0.      0.     -0.375  -0.75    0.375  -0.75  ]
+ [ 0.      0.      0.75    1.     -0.75    2.    ]]
+
+joint load Aj 
+ [  0.   0.  40. -10.   0.   0.]
+
+member reaction 
+ [[ 53.335   0.   ]
+ [ 35.56    0.   ]
+ [ 26.67  100.   ]
+ [-17.78   66.67 ]
+ [  0.    100.   ]
+ [  0.    -66.67 ]]
+
+ force matrix 
+ [1. 1. 1. 1. 1. 1.]
+
+---------------------RESULTS----------------
+ 
+ summed member reaction Ar
+ [ 53.335  35.56  126.67   48.89  100.    -66.67 ]
+
+ combined load matrix Ac = Aj - Ar 
+ [ -53.335  -35.56   -86.67   -58.89  -100.      66.67 ]
+
+ stiffness force matrix 
+ [[1 1 1 1 1 1]
+ [1 1 1 1 1 1]
+ [1 1 1 1 1 1]
+ [1 1 1 1 1 1]
+ [1 1 1 1 1 1]
+ [1 1 1 1 1 1]]
+
+ new stiffness matrix 
+ [[ 0.44    0.66   -0.44    0.66    0.      0.    ]
+ [ 0.66    1.33   -0.66    0.66    0.      0.    ]
+ [-0.44   -0.66    0.819   0.0833 -0.375   0.75  ]
+ [ 0.66    0.66    0.0833  3.333  -0.75    1.    ]
+ [ 0.      0.     -0.375  -0.75    0.375  -0.75  ]
+ [ 0.      0.      0.75    1.     -0.75    2.    ]]
+
+ Displacement matrix 
+ [  14536.4121684   -56590.60207365 -157888.48960135  -58440.14304558
+ -392449.04845032  -58706.80304558]
+
+ Reaction matrix 
+ [-2.09539053e-11 -1.22213351e-11  2.35758080e-11 -1.39692702e-11
+  0.00000000e+00  1.28039801e-11]
+
+ # |---------------------------------------------------------
+
+           
+ # | This program is designed by Stephen Njai N and reuires Python 3.
+           
+ # | This program utilizes the following modules: sys, numpy, datetime.
+           
+ # | This program is meant to run fro the command line or a python IDE such as pycharm.
+           
+ # | For any questions, reach out on njorogenjai11@gmail.com
+           
+ # |---------------------------------------------------------------------------------------|
+
+           
